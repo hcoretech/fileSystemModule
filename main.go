@@ -9,8 +9,10 @@ import (
 
 func main() {
 	loop.NewLoop()
+
 	go func() {
-		fmt.Println("This is a goroutine running in the background.")
+		// fmt.Println("This is a goroutine running in the background.")
+		loop.CheckLoop()
 
 	}()
 
