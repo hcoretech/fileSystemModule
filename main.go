@@ -3,10 +3,12 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"github.com/hcoretech/fileSystemModule/loop"
 )
 
 func main() {
-	loop.newLoop()
+	loop.NewLoop()
 	go func() {
 		fmt.Println("This is a goroutine running in the background.")
 
