@@ -2,9 +2,9 @@ package loop
 
 import (
 	"fmt"
-)	
+)
 
-func newLoop() int{
+func newLoop() int {
 	fmt.Println("Loop started.")
 	return 42
 	// for{
